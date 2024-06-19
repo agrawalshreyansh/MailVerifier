@@ -52,7 +52,7 @@ def submit(request):
      
             # Save the data to the database
             User_Login_Data.objects.create(name=name, username=username, email=email, password=password)
-            return redirect('login')
+            return redirect('entred')
         else:
             return redirect('Register')
             print("Hagdiya")

@@ -9,7 +9,7 @@
 </head>
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 <body>
-    <form action="login" method="post" >
+    <form action="submit" method="POST" >
         {% csrf_token %}
         <div class="form-group">
             <label for="email">Enter Verification Code Recieved on your email</label>
